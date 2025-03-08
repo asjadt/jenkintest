@@ -1,0 +1,38 @@
+# Maven build directory
+/target/
+
+# Logs
+*.log
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+
+# Generated reports and results
+/reports/
+/cucumber-reports/
+/cucumber-report-html/
+*.html
+*.xml
+*.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Other IDE specific files
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
