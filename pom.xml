@@ -80,12 +80,10 @@
                     <goal>generate</goal>
                 </goals>
                 <configuration>
-                    <projectName>JenkinTestProject</projectName>
-                    <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
-                    <jsonFiles>
-                        <param>**/*.json</param>
-                    </jsonFiles>
-                </configuration>
+                <projectName>JenkinTestProject</projectName>
+                <reportOutputDirectory>${project.build.directory}/cucumber-reports</reportOutputDirectory>
+                <cucumberOutput>${project.build.directory}/cucumber-reports/Cucumber.json</cucumberOutput>
+            </configuration>
             </execution>
         </executions>
         </plugin>
